@@ -1,0 +1,2269 @@
+"?xml": {
+  "@version": "1.0"
+}[]{
+  "@xmlns": "urn:hl7-org:v3",
+  "@xmlns:voc": "urn:hl7-org:v3/voc",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "urn:hl7-org:v3 CDA.xsd",
+  "#comment": [],
+  "typeId": {
+    "@root": "2.16.840.1.113883.1.3",
+    "@extension": "POCD_HD000040"
+  },
+  "templateId": {
+    "@root": "2.16.840.1.113883.3.27.1776"
+  },
+  "id": {
+    "@extension": "c266",
+    "@root": "2.16.840.1.113883.19.4"
+  },
+  "code": {
+    "@code": "11488-4",
+    "@codeSystem": "2.16.840.1.113883.6.1",
+    "@codeSystemName": "LOINC",
+    "@displayName": "Consultation note"
+  },
+  "title": "Good Health Clinic Consultation Note",
+  "effectiveTime": {
+    "@value": "20000407"
+  },
+  "confidentialityCode": {
+    "@code": "N",
+    "@codeSystem": "2.16.840.1.113883.5.25"
+  },
+  "languageCode": {
+    "@code": "en-US"
+  },
+  "setId": {
+    "@extension": "BB35",
+    "@root": "2.16.840.1.113883.19.7"
+  },
+  "versionNumber": {
+    "@value": "2"
+  },
+  "recordTarget": {
+    "patientRole": {
+      "id": {
+        "@extension": "12345",
+        "@root": "2.16.840.1.113883.19.5"
+      },
+      "patient": {
+        "name": {
+          "given": "Henry",
+          "family": "Levin",
+          "suffix": "the 7th"
+        },
+        "administrativeGenderCode": {
+          "@code": "M",
+          "@codeSystem": "2.16.840.1.113883.5.1"
+        },
+        "birthTime": {
+          "@value": "19320924"
+        }
+      },
+      "providerOrganization": {
+        "id": {
+          "@root": "2.16.840.1.113883.19.5"
+        }
+      }
+    }
+  },
+  "author": {
+    "time": {
+      "@value": "2000040714"
+    },
+    "assignedAuthor": {
+      "id": {
+        "@extension": "KP00017",
+        "@root": "2.16.840.1.113883.19.5"
+      },
+      "assignedPerson": {
+        "name": {
+          "given": "Robert",
+          "family": "Dolin",
+          "suffix": "MD"
+        }
+      },
+      "representedOrganization": {
+        "id": {
+          "@root": "2.16.840.1.113883.19.5"
+        }
+      }
+    }
+  },
+  "custodian": {
+    "assignedCustodian": {
+      "representedCustodianOrganization": {
+        "id": {
+          "@root": "2.16.840.1.113883.19.5"
+        },
+        "name": "Good Health Clinic"
+      }
+    }
+  },
+  "legalAuthenticator": {
+    "time": {
+      "@value": "20000408"
+    },
+    "signatureCode": {
+      "@code": "S"
+    },
+    "assignedEntity": {
+      "id": {
+        "@extension": "KP00017",
+        "@root": "2.16.840.1.113883.19.5"
+      },
+      "assignedPerson": {
+        "name": {
+          "given": "Robert",
+          "family": "Dolin",
+          "suffix": "MD"
+        }
+      },
+      "representedOrganization": {
+        "id": {
+          "@root": "2.16.840.1.113883.19.5"
+        }
+      }
+    }
+  },
+  "relatedDocument": {
+    "@typeCode": "RPLC",
+    "parentDocument": {
+      "id": {
+        "@extension": "a123",
+        "@root": "2.16.840.1.113883.19.4"
+      },
+      "setId": {
+        "@extension": "BB35",
+        "@root": "2.16.840.1.113883.19.7"
+      },
+      "versionNumber": {
+        "@value": "1"
+      }
+    }
+  },
+  "componentOf": {
+    "encompassingEncounter": {
+      "id": {
+        "@extension": "KPENC1332",
+        "@root": "2.16.840.1.113883.19.6"
+      },
+      "effectiveTime": {
+        "@value": "20000407"
+      },
+      "encounterParticipant": {
+        "@typeCode": "CON",
+        "time": {
+          "@value": "20000407"
+        },
+        "assignedEntity": {
+          "id": {
+            "@extension": "KP00017",
+            "@root": "2.16.840.1.113883.19.5"
+          },
+          "assignedPerson": {
+            "name": {
+              "given": "Robert",
+              "family": "Dolin",
+              "suffix": "MD"
+            }
+          },
+          "representedOrganization": {
+            "id": {
+              "@root": "2.16.840.1.113883.19.5"
+            }
+          }
+        }
+      },
+      "location": {
+        "healthCareFacility": {
+          "@classCode": "DSDLOC",
+          "code": {
+            "@code": "GIM",
+            "@codeSystem": "2.16.840.1.113883.5.10588",
+            "@displayName": "General internal medicine clinic"
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "structuredBody": {
+      "#comment": [],
+      "component": [
+        {
+          "section": {
+            "code": {
+              "@code": "10164-2",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "History of Present Illness",
+            "text": {
+              "content": [
+                {
+                  "@styleCode": "Bold",
+                  "#text": "Henry Levin, the 7",
+                  "sup": "th"
+                },
+                {
+                  "@revised": "delete",
+                  "#text": "twenties"
+                },
+                {
+                  "@revised": "insert",
+                  "#text": "teens"
+                }
+              ],
+              "#text": [
+                " is a 67 year old male referred for further asthma management. Onset of asthma in his ",
+                ". He was hospitalized twice last year, and already twice this year. He has not been able to be weaned off steroids for the past several months. \r\n\t\t\t\t\t\t"
+              ]
+            }
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "10153-2",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Past Medical History",
+            "text": {
+              "list": {
+                "item": [
+                  {
+                    "content": {
+                      "@ID": "a1",
+                      "#text": "Asthma"
+                    }
+                  },
+                  {
+                    "content": {
+                      "@ID": "a2",
+                      "#text": "Hypertension (see HTN.cda for details)"
+                    }
+                  },
+                  {
+                    "content": {
+                      "@ID": "a3",
+                      "#text": "Osteoarthritis, \r\n\t\t\t\t\t\t\t\t\t",
+                      "content": {
+                        "@ID": "a4",
+                        "#text": "right knee"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "entry": [
+              {
+                "observation": {
+                  "@classCode": "COND",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "195967001",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Asthma",
+                    "originalText": {
+                      "reference": {
+                        "@value": "#a1"
+                      }
+                    }
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "@value": "1950"
+                  },
+                  "reference": {
+                    "@typeCode": "XCRPT",
+                    "externalObservation": {
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.2765"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "COND",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "59621000",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "HTN",
+                    "originalText": {
+                      "reference": {
+                        "@value": "#a2"
+                      }
+                    }
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "reference": [
+                    {
+                      "@typeCode": "SPRT",
+                      "seperatableInd": {
+                        "@value": "false"
+                      },
+                      "externalDocument": {
+                        "id": {
+                          "@root": "2.16.840.1.113883.19.4.789"
+                        },
+                        "text": {
+                          "@mediaType": "multipart/related",
+                          "reference": {
+                            "@value": "HTN.cda"
+                          }
+                        },
+                        "setId": {
+                          "@root": "2.16.840.1.113883.19.7.2465"
+                        },
+                        "versionNumber": {
+                          "@value": "1"
+                        }
+                      }
+                    },
+                    {
+                      "@typeCode": "XCRPT",
+                      "externalObservation": {
+                        "id": {
+                          "@root": "2.16.840.1.113883.19.1.2005"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "COND",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@xsi:type": "CD",
+                    "@code": "396275006",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Osteoarthritis",
+                    "originalText": {
+                      "reference": {
+                        "@value": "#a3"
+                      }
+                    }
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "targetSiteCode": {
+                    "@code": "49076000",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Knee joint",
+                    "originalText": {
+                      "reference": {
+                        "@value": "#a4"
+                      }
+                    },
+                    "qualifier": {
+                      "name": {
+                        "@code": "78615007",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "with laterality"
+                      },
+                      "value": {
+                        "@code": "24028007",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "right"
+                      }
+                    }
+                  },
+                  "reference": {
+                    "@typeCode": "XCRPT",
+                    "externalObservation": {
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.1805"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "10160-0",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Medications",
+            "text": {
+              "list": {
+                "item": [
+                  "Theodur 200mg BID",
+                  "Proventil inhaler 2puffs QID PRN",
+                  "Prednisone 20mg qd",
+                  "HCTZ 25mg qd"
+                ]
+              }
+            },
+            "entry": [
+              {
+                "substanceAdministration": {
+                  "@classCode": "SBADM",
+                  "@moodCode": "EVN",
+                  "text": "Theodur 200mg BID",
+                  "effectiveTime": {
+                    "@xsi:type": "PIVL_TS",
+                    "@institutionSpecified": "true",
+                    "period": {
+                      "@value": "12",
+                      "@unit": "h"
+                    }
+                  },
+                  "routeCode": {
+                    "@code": "PO",
+                    "@codeSystem": "2.16.840.1.113883.5.112",
+                    "@codeSystemName": "RouteOfAdministration"
+                  },
+                  "doseQuantity": {
+                    "@value": "200",
+                    "@unit": "mg"
+                  },
+                  "consumable": {
+                    "manufacturedProduct": {
+                      "manufacturedLabeledDrug": {
+                        "code": {
+                          "@code": "66493003",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Theophylline"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "substanceAdministration": {
+                  "@classCode": "SBADM",
+                  "@moodCode": "EVN",
+                  "text": "Proventil inhaler 2puffs QID PRN",
+                  "effectiveTime": {
+                    "@xsi:type": "PIVL_TS",
+                    "@institutionSpecified": "true",
+                    "period": {
+                      "@value": "6",
+                      "@unit": "h"
+                    }
+                  },
+                  "priorityCode": {
+                    "@code": "PRN"
+                  },
+                  "routeCode": {
+                    "@code": "IPINHL",
+                    "@codeSystem": "2.16.840.1.113883.5.112",
+                    "@codeSystemName": "RouteOfAdministration",
+                    "@displayName": "Inhalation, oral"
+                  },
+                  "doseQuantity": {
+                    "@value": "2"
+                  },
+                  "consumable": {
+                    "manufacturedProduct": {
+                      "manufacturedLabeledDrug": {
+                        "code": {
+                          "@code": "91143003",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Albuterol"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "substanceAdministration": {
+                  "@classCode": "SBADM",
+                  "@moodCode": "EVN",
+                  "id": {
+                    "@root": "2.16.840.1.113883.19.8.1"
+                  },
+                  "text": "Prednisone 20mg qd",
+                  "effectiveTime": {
+                    "@xsi:type": "PIVL_TS",
+                    "@institutionSpecified": "true",
+                    "period": {
+                      "@value": "24",
+                      "@unit": "h"
+                    }
+                  },
+                  "routeCode": {
+                    "@code": "PO",
+                    "@codeSystem": "2.16.840.1.113883.5.112",
+                    "@codeSystemName": "RouteOfAdministration"
+                  },
+                  "doseQuantity": {
+                    "@value": "20",
+                    "@unit": "mg"
+                  },
+                  "consumable": {
+                    "manufacturedProduct": {
+                      "manufacturedLabeledDrug": {
+                        "code": {
+                          "@code": "10312003",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Prednisone preparation"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "substanceAdministration": {
+                  "@classCode": "SBADM",
+                  "@moodCode": "EVN",
+                  "text": "HCTZ 25mg qd",
+                  "effectiveTime": {
+                    "@xsi:type": "PIVL_TS",
+                    "@institutionSpecified": "true",
+                    "period": {
+                      "@value": "24",
+                      "@unit": "h"
+                    }
+                  },
+                  "routeCode": {
+                    "@code": "PO",
+                    "@codeSystem": "2.16.840.1.113883.5.112",
+                    "@codeSystemName": "RouteOfAdministration"
+                  },
+                  "consumable": {
+                    "manufacturedProduct": {
+                      "manufacturedLabeledDrug": {
+                        "code": {
+                          "@code": "376209006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Hydrochlorothiazide 25mg tablet"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "10155-0",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Allergies and Adverse Reactions",
+            "text": {
+              "list": {
+                "item": [
+                  "Penicillin - Hives",
+                  "Aspirin - Wheezing",
+                  "Codeine - Itching and nausea"
+                ]
+              }
+            },
+            "entry": [
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@xsi:type": "CD",
+                    "@code": "247472004",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Hives"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "entryRelationship": {
+                    "@typeCode": "MFST",
+                    "observation": {
+                      "@classCode": "OBS",
+                      "@moodCode": "EVN",
+                      "code": {
+                        "@xsi:type": "CD",
+                        "@code": "91936005",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Allergy to penicillin"
+                      },
+                      "statusCode": {
+                        "@code": "completed"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "56018004",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Wheezing"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "entryRelationship": {
+                    "@typeCode": "MFST",
+                    "observation": {
+                      "@classCode": "OBS",
+                      "@moodCode": "EVN",
+                      "code": {
+                        "@code": "293586001",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Allergy to aspirin"
+                      },
+                      "statusCode": {
+                        "@code": "completed"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "32738000",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Pruritis"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "entryRelationship": {
+                    "@typeCode": "MFST",
+                    "observation": {
+                      "@classCode": "OBS",
+                      "@moodCode": "EVN",
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.2010"
+                      },
+                      "code": {
+                        "@code": "62014003",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Adverse reaction to drug",
+                        "qualifier": {
+                          "name": {
+                            "@code": "246075003",
+                            "@codeSystem": "2.16.840.1.113883.6.96",
+                            "@codeSystemName": "SNOMED CT",
+                            "@displayName": "causative agent"
+                          },
+                          "value": {
+                            "@code": "1476002",
+                            "@codeSystem": "2.16.840.1.113883.6.96",
+                            "@codeSystemName": "SNOMED CT",
+                            "@displayName": "codeine"
+                          }
+                        }
+                      },
+                      "statusCode": {
+                        "@code": "completed"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "73879007",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Nausea"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "entryRelationship": {
+                    "@typeCode": "MFST",
+                    "observation": {
+                      "@classCode": "OBS",
+                      "@moodCode": "EVN",
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.2010"
+                      },
+                      "code": {
+                        "@code": "84100007",
+                        "@codeSystem": "2.16.840.1.113883.6.96"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "10157-2",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Family history",
+            "text": {
+              "list": {
+                "item": [
+                  "Father had fatal MI in his early 50's.",
+                  "No cancer or diabetes."
+                ]
+              }
+            },
+            "entry": [
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "22298006",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "MI"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "@value": "1970"
+                  },
+                  "subject": {
+                    "relatedSubject": {
+                      "@classCode": "PRS",
+                      "code": {
+                        "@code": "FTH",
+                        "@codeSystem": "2.16.840.1.113883.5.111"
+                      }
+                    }
+                  },
+                  "entryRelationship": {
+                    "@typeCode": "CAUS",
+                    "observation": {
+                      "@classCode": "OBS",
+                      "@moodCode": "EVN",
+                      "code": {
+                        "@code": "399347008",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "death"
+                      },
+                      "statusCode": {
+                        "@code": "completed"
+                      },
+                      "effectiveTime": {
+                        "@value": "1970"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "@negationInd": "true",
+                  "code": {
+                    "@code": "275937001",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Family history of cancer"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "high": {
+                      "@value": "20000407",
+                      "@inclusive": "true"
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "160274005",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "No family history of diabetes"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "high": {
+                      "@value": "20000407",
+                      "@inclusive": "true"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "29762-2",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Social History",
+            "text": {
+              "list": {
+                "item": [
+                  "Smoking :: 1 PPD between the ages of 20 and 55, and then he quit.",
+                  "Alcohol :: rare"
+                ]
+              }
+            },
+            "entry": [
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "266924008",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "ex-heavy cigarette smoker (20-39/day)"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "low": {
+                      "@value": "1955"
+                    },
+                    "high": {
+                      "@value": "1990"
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "160625004",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Date ceased smoking"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "value": {
+                    "@xsi:type": "TS",
+                    "@value": "1990"
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "266917007",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Trivial drinker -  less than 1/day"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "11384-5",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Physical Examination",
+            "#comment": [],
+            "component": [
+              {
+                "section": {
+                  "code": {
+                    "@code": "8716-3",
+                    "@codeSystem": "2.16.840.1.113883.6.1",
+                    "@codeSystemName": "LOINC"
+                  },
+                  "title": "Vital Signs",
+                  "text": {
+                    "table": {
+                      "tbody": {
+                        "tr": [
+                          {
+                            "th": [
+                              "Date / Time",
+                              "April 7, 2000 14:30",
+                              "April 7, 2000 15:30"
+                            ]
+                          },
+                          {
+                            "th": "Height",
+                            "td": "177 cm (69.7 in)"
+                          },
+                          {
+                            "th": "Weight",
+                            "td": "194.0 lbs (88.0 kg)"
+                          },
+                          {
+                            "th": "BMI",
+                            "td": "28.1 kg/m2"
+                          },
+                          {
+                            "th": "BSA",
+                            "td": "2.05 m2"
+                          },
+                          {
+                            "th": "Temperature",
+                            "td": [
+                              "36.9 C (98.5 F)",
+                              "36.9 C (98.5 F)"
+                            ]
+                          },
+                          {
+                            "th": "Pulse",
+                            "td": [
+                              "86 / minute",
+                              "84 / minute"
+                            ]
+                          },
+                          {
+                            "th": "Rhythm",
+                            "td": [
+                              "Regular",
+                              "Regular"
+                            ]
+                          },
+                          {
+                            "th": "Respirations",
+                            "td": [
+                              "16 / minute, unlabored",
+                              "14 / minute"
+                            ]
+                          },
+                          {
+                            "th": "Systolic",
+                            "td": [
+                              "132 mmHg",
+                              "135 mmHg"
+                            ]
+                          },
+                          {
+                            "th": "Diastolic",
+                            "td": [
+                              "86 mmHg",
+                              "88 mmHg"
+                            ]
+                          },
+                          {
+                            "th": "Position / Cuff",
+                            "td": [
+                              "Left Arm",
+                              "Left Arm"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "entry": [
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "50373000",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Body height measure"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "PQ",
+                          "@value": "1.77",
+                          "@unit": "m",
+                          "translation": {
+                            "@value": "69.7",
+                            "@code": "[in_I]",
+                            "@codeSystem": "2.16.840.1.113883.6.8",
+                            "@codeSystemName": "UCUM"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "363808001",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Body weight measure"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "PQ",
+                          "@value": "194.0",
+                          "@unit": "[lb_ap]",
+                          "translation": {
+                            "@value": "88.0",
+                            "@code": "kg",
+                            "@codeSystem": "2.16.840.1.113883.6.8",
+                            "@codeSystemName": "UCUM"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "60621009",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Body mass index"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "RTO_PQ_PQ",
+                          "numerator": {
+                            "@value": "28.1",
+                            "@unit": "kg"
+                          },
+                          "denominator": {
+                            "@value": "1",
+                            "@unit": "ar"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "301898006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Body surface area"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "PQ",
+                          "@value": "2.05",
+                          "@unit": "ar"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "386725007",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Body temperature"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "PQ",
+                          "@value": "36.9",
+                          "@unit": "Cel",
+                          "translation": {
+                            "@value": "98.5",
+                            "@code": "[degF]",
+                            "@codeSystem": "2.16.840.1.113883.6.8",
+                            "@codeSystemName": "UCUM"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "364075005",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Heart rate"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "RTO_PQ_PQ",
+                          "numerator": {
+                            "@value": "86"
+                          },
+                          "denominator": {
+                            "@value": "1",
+                            "@unit": "min"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "364075005",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Heart rate"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071530"
+                        },
+                        "value": {
+                          "@xsi:type": "RTO_PQ_PQ",
+                          "numerator": {
+                            "@value": "84"
+                          },
+                          "denominator": {
+                            "@value": "1",
+                            "@unit": "min"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "364074009",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Regularity of heart rhythm"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "CD",
+                          "@code": "248649006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Heart regular"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "364074009",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Regularity of heart rhythm"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071530"
+                        },
+                        "value": {
+                          "@xsi:type": "CD",
+                          "@code": "248649006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Heart regular"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "86290005",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Respiratory rate"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "value": {
+                          "@xsi:type": "RTO_PQ_PQ",
+                          "numerator": {
+                            "@value": "16"
+                          },
+                          "denominator": {
+                            "@value": "1",
+                            "@unit": "min"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "276362002",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Breathing easily"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "86290005",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Respiratory rate"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071530"
+                        },
+                        "value": {
+                          "@xsi:type": "RTO_PQ_PQ",
+                          "numerator": {
+                            "@value": "14"
+                          },
+                          "denominator": {
+                            "@value": "1",
+                            "@unit": "min"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "251076008",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Cuff blood pressure"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071430"
+                        },
+                        "targetSiteCode": {
+                          "@code": "368208006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Left arm"
+                        },
+                        "entryRelationship": [
+                          {
+                            "@typeCode": "COMP",
+                            "observation": {
+                              "@classCode": "OBS",
+                              "@moodCode": "EVN",
+                              "code": {
+                                "@code": "271649006",
+                                "@codeSystem": "2.16.840.1.113883.6.96",
+                                "@codeSystemName": "SNOMED CT",
+                                "@displayName": "Systolic BP"
+                              },
+                              "statusCode": {
+                                "@code": "completed"
+                              },
+                              "effectiveTime": {
+                                "@value": "200004071530"
+                              },
+                              "value": {
+                                "@xsi:type": "PQ",
+                                "@value": "132",
+                                "@unit": "mm[Hg]"
+                              }
+                            }
+                          },
+                          {
+                            "@typeCode": "COMP",
+                            "observation": {
+                              "@classCode": "OBS",
+                              "@moodCode": "EVN",
+                              "code": {
+                                "@code": "271650006",
+                                "@codeSystem": "2.16.840.1.113883.6.96",
+                                "@codeSystemName": "SNOMED CT",
+                                "@displayName": "Diastolic BP"
+                              },
+                              "statusCode": {
+                                "@code": "completed"
+                              },
+                              "effectiveTime": {
+                                "@value": "200004071530"
+                              },
+                              "value": {
+                                "@xsi:type": "PQ",
+                                "@value": "86",
+                                "@unit": "mm[Hg]"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "251076008",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Cuff blood pressure"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "effectiveTime": {
+                          "@value": "200004071530"
+                        },
+                        "targetSiteCode": {
+                          "@code": "368208006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Left arm"
+                        },
+                        "entryRelationship": [
+                          {
+                            "@typeCode": "COMP",
+                            "observation": {
+                              "@classCode": "OBS",
+                              "@moodCode": "EVN",
+                              "code": {
+                                "@code": "271649006",
+                                "@codeSystem": "2.16.840.1.113883.6.96",
+                                "@codeSystemName": "SNOMED CT",
+                                "@displayName": "Systolic BP"
+                              },
+                              "statusCode": {
+                                "@code": "completed"
+                              },
+                              "effectiveTime": {
+                                "@value": "200004071530"
+                              },
+                              "value": {
+                                "@xsi:type": "PQ",
+                                "@value": "135",
+                                "@unit": "mm[Hg]"
+                              }
+                            }
+                          },
+                          {
+                            "@typeCode": "COMP",
+                            "observation": {
+                              "@classCode": "OBS",
+                              "@moodCode": "EVN",
+                              "code": {
+                                "@code": "271650006",
+                                "@codeSystem": "2.16.840.1.113883.6.96",
+                                "@codeSystemName": "SNOMED CT",
+                                "@displayName": "Diastolic BP"
+                              },
+                              "statusCode": {
+                                "@code": "completed"
+                              },
+                              "effectiveTime": {
+                                "@value": "200004071530"
+                              },
+                              "value": {
+                                "@xsi:type": "PQ",
+                                "@value": "88",
+                                "@unit": "mm[Hg]"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "section": {
+                  "code": {
+                    "@code": "8709-8",
+                    "@codeSystem": "2.16.840.1.113883.6.1",
+                    "@codeSystemName": "LOINC"
+                  },
+                  "title": "Skin Exam",
+                  "text": {
+                    "#text": "Erythematous rash, palmar surface, left index finger.\r\n\t\t\t\t\t\t\t\t ",
+                    "renderMultiMedia": {
+                      "@referencedObject": "MM1"
+                    }
+                  },
+                  "entry": {
+                    "observation": {
+                      "@classCode": "OBS",
+                      "@moodCode": "EVN",
+                      "code": {
+                        "@code": "271807003",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Rash"
+                      },
+                      "statusCode": {
+                        "@code": "completed"
+                      },
+                      "methodCode": {
+                        "@code": "32750006",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Inspection"
+                      },
+                      "targetSiteCode": {
+                        "@code": "48856004",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Skin of palmer surface of index finger",
+                        "qualifier": {
+                          "name": {
+                            "@code": "78615007",
+                            "@codeSystem": "2.16.840.1.113883.6.96",
+                            "@codeSystemName": "SNOMED CT",
+                            "@displayName": "with laterality"
+                          },
+                          "value": {
+                            "@code": "7771000",
+                            "@codeSystem": "2.16.840.1.113883.6.96",
+                            "@codeSystemName": "SNOMED CT",
+                            "@displayName": "left"
+                          }
+                        }
+                      },
+                      "entryRelationship": {
+                        "@typeCode": "SPRT",
+                        "regionOfInterest": {
+                          "@classCode": "ROIOVL",
+                          "@moodCode": "EVN",
+                          "@ID": "MM1",
+                          "id": {
+                            "@root": "2.16.840.1.113883.19.3.1"
+                          },
+                          "code": {
+                            "@code": "ELLIPSE"
+                          },
+                          "value": [
+                            {
+                              "@value": "3"
+                            },
+                            {
+                              "@value": "1"
+                            },
+                            {
+                              "@value": "3"
+                            },
+                            {
+                              "@value": "7"
+                            },
+                            {
+                              "@value": "2"
+                            },
+                            {
+                              "@value": "4"
+                            },
+                            {
+                              "@value": "4"
+                            },
+                            {
+                              "@value": "4"
+                            }
+                          ],
+                          "entryRelationship": {
+                            "@typeCode": "SUBJ",
+                            "observationMedia": {
+                              "@classCode": "OBS",
+                              "@moodCode": "EVN",
+                              "id": {
+                                "@root": "2.16.840.1.113883.19.2.1"
+                              },
+                              "value": {
+                                "@mediaType": "image/gif",
+                                "reference": {
+                                  "@value": "lefthand.gif"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "section": {
+                  "code": {
+                    "@code": "8710-6",
+                    "@codeSystem": "2.16.840.1.113883.6.1",
+                    "@codeSystemName": "LOINC"
+                  },
+                  "title": "Lungs",
+                  "text": "Clear with no wheeze. Good air flow.",
+                  "entry": [
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "48348007",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Chest clear"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "methodCode": {
+                          "@code": "37931006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Auscultation"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "@negationInd": "true",
+                        "code": {
+                          "@code": "56018004",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Wheezing"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "methodCode": {
+                          "@code": "37931006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Auscultation"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "section": {
+                  "code": {
+                    "@code": "10223-2",
+                    "@codeSystem": "2.16.840.1.113883.6.1",
+                    "@codeSystemName": "LOINC"
+                  },
+                  "title": "Cardiac",
+                  "text": "RRR with no murmur, no S3, no S4.",
+                  "entry": [
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "76863003",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Normal heart rate"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "methodCode": {
+                          "@code": "37931006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Auscultation"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "@negationInd": "true",
+                        "code": {
+                          "@code": "88610006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "heart murmur"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "methodCode": {
+                          "@code": "37931006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Auscultation"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "@negationInd": "true",
+                        "code": {
+                          "@code": "277455002",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Third heart sound"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "methodCode": {
+                          "@code": "37931006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Auscultation"
+                        }
+                      }
+                    },
+                    {
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "code": {
+                          "@code": "60721002",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Fourth heart sound inaudible"
+                        },
+                        "statusCode": {
+                          "@code": "completed"
+                        },
+                        "methodCode": {
+                          "@code": "37931006",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Auscultation"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "11502-2",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Labs",
+            "text": {
+              "list": {
+                "item": [
+                  "CXR 02/03/1999: Hyperinflated. Normal cardiac silhouette, clear lungs.",
+                  "Peak Flow today: 260 l/m"
+                ]
+              }
+            },
+            "entry": [
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "282290005",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Imaging interpretation"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "entryRelationship": [
+                    {
+                      "@typeCode": "COMP",
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "id": {
+                          "@root": "2.16.840.1.113883.19.1.3005"
+                        },
+                        "code": {
+                          "@code": "249674001",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Chest hyperinflated"
+                        }
+                      }
+                    },
+                    {
+                      "@typeCode": "COMP",
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "id": {
+                          "@root": "2.16.840.1.113883.19.1.5505"
+                        },
+                        "code": {
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@nullFlavor": "OTH",
+                          "originalText": "normal cardiac silhouette"
+                        }
+                      }
+                    },
+                    {
+                      "@typeCode": "COMP",
+                      "observation": {
+                        "@classCode": "OBS",
+                        "@moodCode": "EVN",
+                        "@negationInd": "true",
+                        "id": {
+                          "@root": "2.16.840.1.113883.19.1.6675"
+                        },
+                        "code": {
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@nullFlavor": "OTH",
+                          "originalText": "radiopacities"
+                        }
+                      }
+                    }
+                  ],
+                  "reference": {
+                    "@typeCode": "SPRT",
+                    "externalObservation": {
+                      "@classCode": "DGIMG",
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.14"
+                      },
+                      "code": {
+                        "@code": "56350004",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Chest-X-ray"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "EVN",
+                  "id": {
+                    "@root": "2.16.840.1.113883.19.1.7005"
+                  },
+                  "code": {
+                    "@code": "313193002",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Peak flow"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "@value": "20000407"
+                  },
+                  "value": {
+                    "@xsi:type": "RTO_PQ_PQ",
+                    "numerator": {
+                      "@value": "260",
+                      "@unit": "l"
+                    },
+                    "denominator": {
+                      "@value": "1",
+                      "@unit": "min"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "29554-3",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "In-office Procedures",
+            "text": {
+              "list": {
+                "item": "Suture removal, left forearm."
+              }
+            },
+            "entry": {
+              "procedure": {
+                "@classCode": "PROC",
+                "@moodCode": "EVN",
+                "code": {
+                  "@code": "30549001",
+                  "@codeSystem": "2.16.840.1.113883.6.96",
+                  "@codeSystemName": "SNOMED CT",
+                  "@displayName": "Suture removal"
+                },
+                "statusCode": {
+                  "@code": "completed"
+                },
+                "effectiveTime": {
+                  "@value": "200004071430"
+                },
+                "targetSiteCode": {
+                  "@code": "66480008",
+                  "@codeSystem": "2.16.840.1.113883.6.96",
+                  "@codeSystemName": "SNOMED CT",
+                  "@displayName": "Left forearm"
+                }
+              }
+            }
+          }
+        },
+        {
+          "section": {
+            "code": {
+              "@code": "11496-7",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Assessment",
+            "text": {
+              "list": {
+                "item": [
+                  "Asthma, with prior smoking history. Difficulty weaning off steroids. Will try gradual taper.",
+                  "Hypertension, well-controlled.",
+                  "Contact dermatitis on finger."
+                ]
+              }
+            },
+            "entry": [
+              {
+                "observation": {
+                  "@classCode": "COND",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "14657009",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Established diagnosis"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "@value": "200004071530"
+                  },
+                  "value": {
+                    "@xsi:type": "CD",
+                    "@code": "195967001",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Asthma",
+                    "translation": {
+                      "@code": "49390",
+                      "@codeSystem": "2.16.840.1.113883.6.2",
+                      "@codeSystemName": "ICD9CM",
+                      "@displayName": "ASTHMA W/O STATUS ASTHMATICUS"
+                    }
+                  },
+                  "reference": {
+                    "@typeCode": "ELNK",
+                    "externalObservation": {
+                      "@classCode": "COND",
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.35"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "COND",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "14657009",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Established diagnosis"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "@value": "200004071530"
+                  },
+                  "value": {
+                    "@xsi:type": "CD",
+                    "@code": "59621000",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Essential hypertension",
+                    "translation": {
+                      "@code": "4019",
+                      "@codeSystem": "2.16.840.1.113883.6.2",
+                      "@codeSystemName": "ICD9CM",
+                      "@displayName": "HYPERTENSION NOS"
+                    }
+                  },
+                  "reference": {
+                    "@typeCode": "ELNK",
+                    "externalObservation": {
+                      "@classCode": "COND",
+                      "id": {
+                        "@root": "2.16.840.1.113883.19.1.37"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "COND",
+                  "@moodCode": "EVN",
+                  "code": {
+                    "@code": "14657009",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Established diagnosis"
+                  },
+                  "statusCode": {
+                    "@code": "completed"
+                  },
+                  "effectiveTime": {
+                    "@value": "200004071530"
+                  },
+                  "value": {
+                    "@xsi:type": "CD",
+                    "@code": "40275004",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Contact dermatitis",
+                    "translation": {
+                      "@code": "692.9",
+                      "@codeSystem": "2.16.840.1.113883.6.2",
+                      "@codeSystemName": "ICD9CM",
+                      "@displayName": "Contact Dermatitis, NOS"
+                    }
+                  },
+                  "targetSiteCode": {
+                    "@code": "48856004",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Skin of palmer surface of index finger",
+                    "qualifier": {
+                      "name": {
+                        "@code": "78615007",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "with laterality"
+                      },
+                      "value": {
+                        "@code": "7771000",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "left"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "section": {
+            "templateId": {
+              "@root": "2.16.840.1.113883.3.27.354"
+            },
+            "code": {
+              "@code": "18776-5",
+              "@codeSystem": "2.16.840.1.113883.6.1",
+              "@codeSystemName": "LOINC"
+            },
+            "title": "Plan",
+            "text": {
+              "list": {
+                "item": [
+                  "Complete PFTs with lung volumes.",
+                  "Chem-7 tomorrow.",
+                  "Teach peak flow rate measurement.",
+                  "Decrease prednisone to 20qOD alternating with 18qOD.",
+                  "Hydrocortisone cream to finger BID.",
+                  "RTC 1 week."
+                ]
+              }
+            },
+            "entry": [
+              {
+                "act": {
+                  "@classCode": "ACT",
+                  "@moodCode": "INT",
+                  "id": null,
+                  "code": {
+                    "@code": "23426006",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Pulmonary function test"
+                  },
+                  "text": "Complete PFTs with lung volumes.",
+                  "entryRelationship": {
+                    "@typeCode": "COMP",
+                    "act": {
+                      "@classCode": "ACT",
+                      "@moodCode": "INT",
+                      "code": {
+                        "@code": "252472004",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Lung volume test"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "observation": {
+                  "@classCode": "OBS",
+                  "@moodCode": "INT",
+                  "code": {
+                    "@code": "24320-4",
+                    "@codeSystem": "2.16.840.1.113883.6.1",
+                    "@codeSystemName": "LOINC",
+                    "originalText": "Chem-7",
+                    "translation": {
+                      "@code": "aYU7t6",
+                      "@codeSystem": "2.16.840.1.113883.19.278.47",
+                      "@codeSystemName": "MyLocalCodeSystem",
+                      "@displayName": "Chem7"
+                    }
+                  },
+                  "text": "Chem-7 tomorrow",
+                  "effectiveTime": {
+                    "@value": "20000408"
+                  }
+                }
+              },
+              {
+                "act": {
+                  "@classCode": "ACT",
+                  "@moodCode": "INT",
+                  "id": null,
+                  "code": {
+                    "@code": "223468009",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Teaching of skills",
+                    "qualifier": {
+                      "name": {
+                        "@code": "363702006",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "has focus"
+                      },
+                      "value": {
+                        "@code": "29893006",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "Peak flow rate measurement"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "substanceAdministration": {
+                  "@classCode": "SBADM",
+                  "@moodCode": "RQO",
+                  "text": "prednisone 20qOD alternating with 18qOD.",
+                  "routeCode": {
+                    "@code": "PO",
+                    "@codeSystem": "2.16.840.1.113883.5.112",
+                    "@codeSystemName": "RouteOfAdministration"
+                  },
+                  "consumable": {
+                    "manufacturedProduct": {
+                      "manufacturedLabeledDrug": {
+                        "code": {
+                          "@code": "10312003",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Prednisone preparation"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "substanceAdministration": {
+                  "@classCode": "SBADM",
+                  "@moodCode": "RQO",
+                  "text": "Hydrocortisone cream to finger BID.",
+                  "effectiveTime": {
+                    "@xsi:type": "PIVL_TS",
+                    "@institutionSpecified": "true",
+                    "period": {
+                      "@value": "12",
+                      "@unit": "h"
+                    }
+                  },
+                  "routeCode": {
+                    "@code": "SKIN",
+                    "@codeSystem": "2.16.840.1.113883.5.112",
+                    "@codeSystemName": "RouteOfAdministration",
+                    "@displayName": "Topical application, skin"
+                  },
+                  "approachSiteCode": {
+                    "@code": "48856004",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Skin of palmer surface of index finger",
+                    "qualifier": {
+                      "name": {
+                        "@code": "78615007",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "with laterality"
+                      },
+                      "value": {
+                        "@code": "7771000",
+                        "@codeSystem": "2.16.840.1.113883.6.96",
+                        "@codeSystemName": "SNOMED CT",
+                        "@displayName": "left"
+                      }
+                    }
+                  },
+                  "consumable": {
+                    "manufacturedProduct": {
+                      "manufacturedLabeledDrug": {
+                        "code": {
+                          "@code": "331646005",
+                          "@codeSystem": "2.16.840.1.113883.6.96",
+                          "@codeSystemName": "SNOMED CT",
+                          "@displayName": "Hydrocortisone cream"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "encounter": {
+                  "@classCode": "ENC",
+                  "@moodCode": "RQO",
+                  "code": {
+                    "@code": "185389009",
+                    "@codeSystem": "2.16.840.1.113883.6.96",
+                    "@codeSystemName": "SNOMED CT",
+                    "@displayName": "Follow-up visit"
